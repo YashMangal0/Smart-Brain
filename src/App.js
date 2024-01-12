@@ -10,10 +10,10 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 
 const returnClarifaiRequest=(imageUrl)=>{
-const PAT = '2f9964144a8c410f9c07bf8edf60e9ba';
-const USER_ID = 't1c533y5fyara';       
-const APP_ID = 'my-first-application-a6in7w';
-const MODEL_ID = 'face-detection';
+const PAT = 'YOUR PAT ID';
+const USER_ID = 'YOUR USER ID';       
+const APP_ID = 'YOUR APP ID';
+const MODEL_ID = 'YOUR MODEL ID';
 const IMAGE_URL = imageUrl;
 
 const raw = JSON.stringify({
